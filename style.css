@@ -1,0 +1,60 @@
+body{
+    background-image: url(https://images7.alphacoders.com/104/1047600.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.box{
+    border: 3px solid black;
+    width: 400px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+     box-shadow: 3px 5px 10px black; 
+}
+input{
+    border: 2px solid black;
+    border-radius: 4px;
+}
+h3{
+    font-size: 23px;
+}
+label{
+    font-size:18px;
+}
+h4{
+    font-size: 16px;
+}
+.btn{
+    margin-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+@media(max-width : 300px){
+
+    h1 {
+        font-size: 1.2rem;
+    }
+    input{
+        width: 120px;
+    }
+}
+@media(max-width : 150px){
+    h3 {
+        font-size: 1.1rem;
+    }
+    input{
+        width: 100px;
+    }
+    label{
+        font-size: 0.9rem;
+    }
+}
+
